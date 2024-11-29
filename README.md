@@ -3,28 +3,6 @@
 
 A Python-based tool for generating captions for images using the **BLIP (Bootstrapped Language-Image Pretraining)** model from Salesforce.
 
-## ✨ Features
-- 📂 Automatically generates captions for all images in the `images` folder.
-- ⚡ Supports processing multiple images in bulk.
-- 📄 Saves the generated captions in a CSV file in the `output` folder.
-- 🛠️ Modular design with reusable scripts for core functionality.
-
-## 🤖 The Model: BLIP (Bootstrapped Language-Image Pretraining)
-This project leverages the **BLIP (Base)** model, a pretrained vision-language model developed by Salesforce. BLIP is designed for tasks like image captioning, visual question answering, and image-text retrieval.
-
-### 🔎 Why BLIP?
-BLIP provides:
-- **🚀 State-of-the-art performance**: Excellent results in generating natural language descriptions for images.
-- **🌍 Pretrained on diverse datasets**: The model understands a wide range of concepts and objects.
-- **🔧 Flexibility**: Works well out-of-the-box for image captioning without requiring fine-tuning.
-
-### Model Details
-- **Model Name**: `Salesforce/blip-image-captioning-base`
-- **Architecture**: Vision Transformer (ViT) combined with a Transformer-based language model.
-- **Source**: [Hugging Face Transformers](https://huggingface.co/Salesforce/blip-image-captioning-base)
-
-For more information about BLIP, visit the [official paper](https://arxiv.org/abs/2201.12086).
-
 ## 🛠️ Installation
 
 1. Clone the repository:
@@ -46,6 +24,29 @@ For more information about BLIP, visit the [official paper](https://arxiv.org/ab
     python main.py
     ```
 3. ✅ Check the generated captions in the `output/captions.csv`.
+
+
+## ✨ Features
+- 📂 Automatically generates captions for all images in the `images` folder.
+- ⚡ Supports processing multiple images in bulk.
+- 📄 Saves the generated captions in a CSV file in the `output` folder.
+- 🛠️ Modular design with reusable scripts for core functionality.
+
+## 🤖 The Model: BLIP (Bootstrapped Language-Image Pretraining)
+This project leverages the **BLIP (Base)** model, a pretrained vision-language model developed by Salesforce. BLIP is designed for tasks like image captioning, visual question answering, and image-text retrieval.
+
+### 🔎 Why BLIP?
+BLIP provides:
+- **🚀 State-of-the-art performance**: Excellent results in generating natural language descriptions for images.
+- **🌍 Pretrained on diverse datasets**: The model understands a wide range of concepts and objects.
+- **🔧 Flexibility**: Works well out-of-the-box for image captioning without requiring fine-tuning.
+
+### Model Details
+- **Model Name**: `Salesforce/blip-image-captioning-base`
+- **Architecture**: Vision Transformer (ViT) combined with a Transformer-based language model.
+- **Source**: [Hugging Face Transformers](https://huggingface.co/Salesforce/blip-image-captioning-base)
+
+For more information about BLIP, visit the [official paper](https://arxiv.org/abs/2201.12086).
 
 ### ⚙️ Command-Line Arguments
 You can customize the behavior of the program by modifying the parameters in the scripts or adding command-line arguments. Current configuration includes:
