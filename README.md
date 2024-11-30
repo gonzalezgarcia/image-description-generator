@@ -1,8 +1,6 @@
 
 # 🌟 Image Description Generator
 
-A Python-based tool for generating captions for images using the **BLIP (Bootstrapped Language-Image Pretraining)** model from Salesforce.
-
 ## 🛠️ Installation
 
 1. Clone the repository:
